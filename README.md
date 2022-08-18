@@ -24,8 +24,6 @@ See final result: [Esper Zukki](https://ciel-almeida.github.io/esper-zukki/)
 
 ## 2. Technologies
 
-The technologies used were basically HTML5 and CSS3 with a lot of animations to give the effects in the hero section and in the fight effects.
-
 - HTML5
 - CSS3
 - Javascript
