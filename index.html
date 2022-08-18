@@ -113,7 +113,7 @@
 
     <main>
       <!-- =============== SOBRE ================= -->
-      <section id="sobre" class="about padding-horizontal padding-vertical">
+      <section id="about" class="about padding-horizontal padding-vertical">
         <div class="about__img-box">
           <img src="images/about.jpg" alt="" class="about__img" />
         </div>
@@ -293,7 +293,7 @@
             type="email"
             name="email"
             id="email"
-            placeholder="&#xf0e0;  E-mail"
+            placeholder="&#xf0e0; E-mail"
             required
           />
           <select
@@ -318,18 +318,22 @@
             required
           ></textarea>
 
-          <!-- Hidden inputs -->
+          <!-- ==== Hidden Inputs From formsubmit.co ==== -->
+          <!-- Page after submition -->
           <input
             type="hidden"
             name="_next"
             value="https://ciel-almeida.github.io/esper-zukki/thankyou.html"
           />
+          <!-- Subject of the email -->
           <input
             type="hidden"
             name="_subject"
             value="Novo contato do site Esper Zukki!"
           />
+          <!-- Email template -->
           <input type="hidden" name="_template" value="table" />
+          <!-- Recaptcha disable -->
           <!-- <input type="hidden" name="_captcha" value="false" /> -->
 
           <!-- Submit Button -->

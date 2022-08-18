@@ -611,7 +611,6 @@ body {
     url("images/bg-blurry-lights1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center bottom; */
   animation: escurecer 2.5s ease-in;
   display: flex;
   flex-direction: column;
@@ -824,6 +823,5 @@ body {
   /* ==== ENEMIES === */
   .cards__wrapper {
     justify-content: space-between;
-    /* gap: 8rem; */
   }
 }
